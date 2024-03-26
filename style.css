@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+      
+      
+}
+
+
+#offcanvasNavbar{
+     background-color: rgb(155, 155, 159) ;  
+     backdrop-filter: blur (10px);
+    }
+
+#hero{
+
+   background-image: url('./assets/jordan.jpg'); 
+   background-position: center;
+   background-size: cover;
+    
+}
+
+

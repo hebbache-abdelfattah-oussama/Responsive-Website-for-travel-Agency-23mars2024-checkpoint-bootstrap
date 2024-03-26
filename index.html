@@ -1,11 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE TOUR TRAVEL AGENCY</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap link-->
+  </head>
+  <body class="vh-100">
+
+    <!-- navbar start-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container">
+        <!--logo-->
+        <a class="navbar-brand fs-4 " href="#" >THE TOUR TRAVEL</a>
+        <!--toggle btn-->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--sidebar-->
+        <div
+          class="sidebar  offcanvas offcanvas-start "
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+
+          <!--sidebar header-->
+          <div class="offcanvas-header broder-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">THE TOUR TRAVEL</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-black shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!--sidebar body-->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul class="navbar-nav justify-content-end  fs-5 flex-grow-1 pe-3">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> 
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#Destinations">Destinations</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#Tours">Tours</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+              </li>
+            </ul>
+             
+          <!-- login / sign up-->
+         <div class="d-flex flex-column  flex-lg-row justify-content-center align-items-center gap-3 ">
+         <a href="#Login" class="text-white">Login</a>
+         <a href="#Signup" class="text-white text-decoration-none px-3 py1 bg-primary rounded-4">Sign Up</a>
+
+         </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end-->
+ 
+     <!--hero section start-->
+
+     <header  class="container p-4 my-2  rounded-3  text-white" id="hero" >
+        
+            <h1 class="display-5 fw-bold">Best Tours Packages </h1>
+            <h2 class="col-md-8 lead ">WHERE YOU CAN SET ON A JOURNEY THAT WILL COMPLETELY CHANGE EVERYTHING YOU KNOW ABOUT COUNTRIES</h2>
+           <div class="text-center">
+            <button class=" btn  btn-dark   btn-lg" type="button">
+                view our offers
+            </button>
+           </div>
     
-</body>
+     </header>
+      <!--hero section end-->
+
+      <!--destinations section start--> 
+
+      <div class="container" >
+        
+        <div class="row g-3">
+             
+            <a name="Destinations"></a>
+            <!--destination one-->
+            <div class="col-12 col-md-6 col-lg-4" > 
+                
+              <div class="card" >
+                <img src="./assets/new york.jpeg" alt="manhattan" class="card-img-top">
+                 
+                <div class="card-body" >
+                    <h5 class="card-title"> New York  </h5>
+                    <p class="card-text"> 
+                        "Explore the enchanting streets of New York City with our exclusive travel packages.
+                         Dive into the vibrant culture, iconic landmarks like Times Square and Central Park, 
+                         and savor the diverse culinary delights. Let us tailor your trip for an unforgettable
+                          experience in the city that never sleeps!" 
+                    </p>
+                    <div class="text-center">
+                        <button class=" btn  btn-dark   btn-lg" type="button">
+                            learn more 
+                        </button>
+                       </div>
+                </div>
+              </div>
+            </div>
+              <!--destination two-->
+            <div class="col-12 col-md-6 col-lg-4">
+               <div class="card" >
+                <img src="./assets/paris.jpeg" alt="barbaz" class="card-img-top">
+
+                <div class="card-body">
+
+                    <h5 class="card-title"> Paris </h5>
+                    <p class="card-text"> "Discover the romance and charm of Paris with our curated travel packages.
+                         Immerse yourself in the iconic sights such as the Eiffel Tower and Louvre Museum. Indulge in 
+                         delectable French cuisine and stroll along the Seine River. Let us create a memorable 
+                         Parisian experience tailored just for you!"</p>
+                         <div class="text-center">
+                            <button class=" btn  btn-dark   btn-lg" type="button">
+                                learn more 
+                            </button>
+                           </div>
+                   </div> 
+                </div>
+              
+              </div>
+                <!--destination three-->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./assets/bali.jpeg" alt="bali" class="card-img-top">
+                     
+                    <div class="card-body">
+                        <h5 class="card-title"> Bali </h5>
+                        <p class="card-text">
+                            "Escape to the tropical paradise of Bali with our personalized travel packages.
+                             Unwind on pristine beaches, explore lush rice terraces, and discover ancient
+                              temples steeped in spirituality. Immerse yourself in Balinese culture,
+                               savor delicious cuisine, and rejuvenate your senses with spa experiences.
+                                Let us craft your perfect Bali getaway."
+                        </p>
+
+                        <div class="text-center">
+                            <button class=" btn  btn-dark   btn-lg" type="button">
+                                learn more 
+                            </button>
+                           </div>
+
+                    </div>
+                  
+
+                </div>
+
+
+
+
+
+              </div>
+        </div>
+
+        <!--destinations section end--> 
+
+        <!--tours section with accordian start--> 
+
+         <div>
+            <a name="Tours"></a>
+
+            <section id="Packages" class="py-md-5 ">
+
+                <h2 class="my-5 text-center">Our Packages</h2>
+            </section>
+            <div class="accordion  w-75 mx-auto" id="accordionExample">
+                
+              <!--tour 1--> 
+                <div class=" accordion-item>
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      New York Tour package 
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong> New York is waiting for you </strong> 
+                        "Explore the wonders of New York City with our 4-day tour package for €1200 per person.
+                         Discover Times Square, Central Park, and the Statue of Liberty. Enjoy Broadway shows,
+                          dine at iconic restaurants, and stay in a luxury hotel. Experience the energy and 
+                          excitement of NYC like never before."
+                    </div>
+                  </div>
+                </div>
+                 <!--tour 2--> 
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Paris tour package
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>What are you waiting to visit Paris ?</strong> 
+                        "Experience the magic of fashion city with our 5-day tour package for €1500 per person. Visit iconic landmarks
+                         like the Eiffel Tower and Louvre Museum
+                        , enjoy a Seine River cruise, indulge in gourmet dining, and stay in a charming hotel.
+                         Immerse yourself in Parisian culture and create unforgettable memories."
+                        
+                    </div>
+                  </div>
+                </div>
+                
+              <!--tour 3--> 
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Bali Tour package 
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Tropical islands are a must see !</strong> 
+                          "Escape to Bali's paradise with our 7-day tour package for €2000 per person. Relax on stunning beaches, visit ancient temples, 
+                         and explore lush rice terraces. Indulge in Balinese cuisine,
+                          enjoy spa treatments, and stay in luxurious accommodations. 
+                         Experience the beauty and tranquility of Bali with our curated itinerary."
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+         </div>
+         
+        <!--tours section with accordian end--> 
+
+        <!--Contact Form strat-->
+         <div class="container   py-md-5  ">
+            
+            <section id="Contact" class="py-md-5 ">
+
+                <h2 class="my-5 text-center"> CONTACT US !</h2>
+                <a name="Contact"></a>
+            </section>
+             <form class="row g-5  ">
+
+                <div class="col-md-6  ">
+                   <label for="name" class="form-label"> First and Last Name </label> 
+                   <input type="text" class="form-control" id="name"  placeholder="adam smith" required>
+                </div>
+                <div class=" col-md-6 ">
+
+                    <label for="emailinfo" class="form-label"> E-mail </label> 
+                   <input type="email" class="form-control" id="emailinfo" placeholder="thetourtravel@gmail.com" required>
+                </div>
+
+                <div class=" col-md-6 ">
+
+                    <label for="destination" class="form-label"> Destination of interest</label> 
+                   <input type="text" class="form-control" id="text"  placeholder="Berlin and warsow"  required>
+                </div>
+
+                <div class="col-md-6 ">
+
+                    <label for="phone" class="form-label"> Phone Number</label> 
+                   <input type="number" class="form-control" id="phone" placeholder="+1 415 768-3847" required>
+                </div>
+
+                <div class=" col-md-12">
+
+                    <label for="message" class="form-label"> Leave US a message </label> 
+                      <textarea class=" form-control" id="message"  rows="3" required ></textarea>
+                </div>
+
+                 <div  class="col-md-12">
+                    <button type="submit" class="btn btn-primary">submit</button>
+
+                 </div>
+
+             </form>
+         </div>
+        <!--Contact Form end-->
+
+          <!--footer start -->
+         
+          <footer class="bg-dark py-5 mt-5">
+          
+            <div class="container text-light text-center">
+             <p class="display-5 mb-3">
+
+               THE TOUR TRAVEL AGENCY 
+             </p>
+               <small class="text-white-50">&copy; 2024Copyright reserved by HEBBACHE ABDELFATTAH OUSSAMA. All rights reserved </small>
+            </div>
+           
+
+          </footer>
+  </body>
 </html>
